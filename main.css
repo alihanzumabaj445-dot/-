@@ -1,0 +1,88 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background: linear-gradient(#f3ede4, #f7f2eb);
+  color: #ff0000;
+}
+
+header {
+  text-align: center;
+  background: #774300;
+  color: white;
+  padding: 20px 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+nav {
+  margin-top: 10px;
+}
+
+.filter-btn {
+  background: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.filter-btn:hover {
+  background: #ffe5b4;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.menu-item {
+  background: #000000;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,.1);
+  text-align: center;
+  padding: 15px;
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(51, 255, 0, 0.2);
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 10px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.price {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+  color: #6b4f36;
+}
+
+button {
+  background: #d2b48c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #b8860b;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #d2b48c;
+  color: white;
+}
